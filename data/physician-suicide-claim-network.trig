@@ -1,0 +1,2082 @@
+@prefix this: <http://purl.org/np/RAQ8zOgtjLzzyjsA41EF4Zj_4TbUStmHYJeo7APx6WXtE> .
+@prefix sub: <http://purl.org/np/RAQ8zOgtjLzzyjsA41EF4Zj_4TbUStmHYJeo7APx6WXtE#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Oreskovich MR, Shanafelt T, Dyrbye LN, et al.";
+    dct:date "2015";
+    dct:identifier <https://doi.org/10.1111/ajad.12173>;
+    dct:title "The Prevalence of Substance Use Disorders in American Physicians";
+    dct:type fabio:ResearchPaper;
+    rdfs:comment "No apparent claim of annual physician suicide rate" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "BsIm4ONtRorAFsjjTzlVIeGA33kgPtPGcdhJsmK3CGFaYUB7qfQe0vfyJyr0aUDteXGaMiAEitRAVTuo1HqbNsuiw2SeUKnVGFkZcJ0u973o4yW95OHxRwcxD9GY+I9vYwbZeNtoor5bnduutnZ9Cpvep3Z8fpVQWW68lPTPKVQ=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:24:37.020+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAip5sNsf91mktx8dahv43TZvx8MnZ55eRr303pdEQUyc> .
+@prefix sub: <http://purl.org/np/RAip5sNsf91mktx8dahv43TZvx8MnZ55eRr303pdEQUyc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Thomas, J.C.";
+    dct:date "2014";
+    dct:identifier <http://doi.org/10.1007/s10912-014-9304-6>;
+    dct:title "Re-Visioning Medicine";
+    dct:type fabio:ReviewPaper;
+    prov:quotedText "It is estimated that 400 physicians commit suicide each year" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "GxfFoC0OL84EmtpztnCBdjdy+SbkYJsXGuTb7YVMqhE3JGuCQTwGAa3jKBxapfJgoUuLCefDOoDwGvCPoirv3PaPFISyM3h2mrQXPIu7yjuPovXJjZeO7Qdzo8DwPr0rDbTLNBCPJxNGzf/2kkqS93xCEh0aSBOimiAcAC3Chwk=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:11:46.005+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RApiM5Rj8Fb0VEbg2w5wI5lyU4ajhnGMJ39tWwRssLi2k> .
+@prefix sub: <http://purl.org/np/RApiM5Rj8Fb0VEbg2w5wI5lyU4ajhnGMJ39tWwRssLi2k#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Tyssen, Reidar; Vaglum, Per; Gronvold, Nina T.; Ekeberg, Oivind";
+    dct:date "2001";
+    dct:identifier <https://doi.org/10.1016/S0165-0327(00)00205-6>;
+    dct:title "Suicidal ideation among medical students and young physicians: a nationwide and prospective study of prevalence and predictors";
+    dct:type fabio:ResearchPaper;
+    rdfs:comment "No apparent claim of annual physician suicide rate" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "Xpd2UFpiXMS83olnw/3IGHrWCUcUrj2keWG1awiodYxArpCFys/ujAOzKoajkhxulObZWn1Du6mJAfs39hHF6lJSPZmc63+NkrC865pSzXcufOV+VfYbg+cEtBPyMRWqwBW9yfsvo0m7D7NI8gB04+gjWL+eLoz5vi/pv6vkbCE=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:18:06.001+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAvld4We77jP84OAWsMqpEVGc1lDrJ0qV7VJCrJKINguk> .
+@prefix sub: <http://purl.org/np/RAvld4We77jP84OAWsMqpEVGc1lDrJ0qV7VJCrJKINguk#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "American Foundation for Suicide Prevention";
+    dct:date "2014";
+    dct:identifier <http://www.afsp.org/preventing-suicide/our-education-and-prevention-programs/programs-for-professionals/physician-and-medical-student-depression-and-suicide>;
+    dct:title "Struggling in Silence Physician Depression and Suicide";
+    dct:type fabio:WebSite;
+    rdfs:comment "Unverified if claim of annual physician suicide rate present" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "VUPYBBaMxe2icuCx+UphLgREc9ILiKRabNgNn8L/KqRNTDV/xsRyf4cxaTdUg8PXQkdfmccm25j7EOqqfFk8Fv57fky5CNatGU5W0g0X2fzWG4uKrE7FQeEdkkQXjJlq7/TMS01873tOS2tzg4xWNrckg8hZFHEby9bXFVX+EuU=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:44:03.647+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RA9dUlTqvAT0LumWwa6UX_Cztck2J6w55L91HdvMjjppc> .
+@prefix sub: <http://purl.org/np/RA9dUlTqvAT0LumWwa6UX_Cztck2J6w55L91HdvMjjppc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Anzia, Joan";
+    dct:date "2016";
+    dct:identifier <https://www.statnews.com/2016/07/21/suicide-physicians/>;
+    dct:title "It’s time to recognize and prevent the tragedy of physician suicide";
+    dct:type fabio:WebSite;
+    pav:sourceAccessedOn "16-09-2016";
+    prov:quotedText "Each year in the United States, 300 to 400 physicians die from suicide - that’s one a day, or the equivalent of two large medical school classes." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0003-4727-9435 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTQs+mANCSHWhIW/YPio468UdGNHsPvADpjfaW8um/v2L4AoDIANginfoU65VNbPT5D0ADt1y0uFNne3VEMr9Y+I2HFaz6IKj+LdYMJk6VUf5WJoImRHIX6BZQwcUc22CbTBFYxvqvp3UmmHrCrhLIZjDSyutExK3tOTRoMDjGowIDAQAB";
+    npx:hasSignature "f1nRNTdyPjO8xnpi5sBwLh2V0/j/dCvd+6gDDgByJc7jB1Lucw+DpE6de6PKWleJOWBvb2s25rf/lRursYx/BERgIJlEuc/YriHjRWhHuQwsS9kspeE/XHbo0Btl+Ehl6Z22WPPJk81GfvOqaQnWE3dsp6XKBWhBWfTSsKPlDrQ=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:07:09.602Z"^^xsd:dateTime;
+    dct:creator orcid:0000-0003-4727-9435;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAPkivO794VVcqpBI6zvfddkKyVJcQbHNBCrkr3C8jxVQ> .
+@prefix sub: <http://purl.org/np/RAPkivO794VVcqpBI6zvfddkKyVJcQbHNBCrkr3C8jxVQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Zisook, Sidney; Young, Ilanit; Doran, Neal; Downs, Nancy; Hadley, Allison; Kirby, Brittany; McGuire, Tara; Moutier, Christine; Norcross, William; Tiamson-Kassab, Maria";
+    dct:date "2016";
+    dct:identifier <http://doi.org/10.1177/0030222815598045>;
+    dct:title "Suicidal ideation among students and physicians at a U.S. Medical School: A healer education, assessment and referral (HEAR) program report";
+    dct:type fabio:ResearchPaper;
+    prov:quotedText "In the United States alone, 300 to 400 physicians take their own lives annually." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "Ii9xdJ7I+nT1lqxmS3IlRf2NU+CQPqx2XYBCVV+yINz0iLUuLn5Gsam8HU+M3hREnHBTXFBN1fxdBWtd0CQBJ33EsjJ6Evgx+Q71ir2gUufi6Vq90tgmgomRXlUD0nHh5x2YaKXmhOZFKVoaoVPuAX7VKEIOZb+rl5Oc49A4ilA=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:24:48.163+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAP8AHpEim15EIxOfZnuG9xpSmERPH7eHfvj52G0197lY> .
+@prefix sub: <http://purl.org/np/RAP8AHpEim15EIxOfZnuG9xpSmERPH7eHfvj52G0197lY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Andrew, Louise B; Brenner, Barry E";
+    dct:date "2018";
+    dct:identifier <https://emedicine.medscape.com/article/806779-overview>;
+    dct:title "Physician Suicide";
+    dct:type fabio:WebSite;
+    pav:sourceAccessedOn "16-11-2019";
+    prov:quotedText "Although it is impossible to estimate with accuracy because of inaccurate cause of death reporting and coding, the number most often used is approximately 3-400 physicians/year, or perhaps a doctor a day." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "cLhKgoJ8ZYJTagkgs/IPjpvED1YK67C3LMy4M7YSUHlnAwNxtWCLz8PzKQyYZM/EfsCN8T1lUmG8PUWZyqju4gnRa+QTgWf757HRn5dRHVjPgXimvDEGCPO3+bmOMTbmtGjDXmjVQtKZ4U4BDGv485VbrgIToZv5c4jxyelpguk=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:54:43.389+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RA_K6UmHfzBwoA4VFHiuitdzeCm-huphxH-RSmuZTIdZw> .
+@prefix sub: <http://purl.org/np/RA_K6UmHfzBwoA4VFHiuitdzeCm-huphxH-RSmuZTIdZw#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Eckleberry-Hunt, J.; Lick, D.";
+    dct:date "2015";
+    dct:identifier <http://doi.org/10.1080/10401334.2015.1044751>;
+    dct:title "Physician Depression and Suicide: A Shared Responsibility";
+    dct:type fabio:PositionPaper;
+    sio:SIO_000277 <http://purl.org/np/RABhqk7zczoyyvYgzc-PokSkWL59f9ssXvr3No000cc-Q>;
+    prov:quotedText "Although the exact number is often disputed, it has been reported that approximately 300 to 400 physicians in the United States take their own lives annually." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "OY0nqZpt53pUSSOqPBV3nFRxRWCnWohSAesz0qCU40Z1ivP5kPsYBC9YXuRPig8xMa4+E8T9Dhmdmr7o88YhHjwCD8kEN358ZvV5yiEZq9x9cCa8kTDV2G3CREeca9nyLPL+MSFLUhzH9J12UJmExqeQRhLCSHdt2a8bm8onDgc=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:12:48.697+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RA7HMrJxgphlwIVFoQOjKGGSAYrFIxZyoau9lTJvub38A> .
+@prefix sub: <http://purl.org/np/RA7HMrJxgphlwIVFoQOjKGGSAYrFIxZyoau9lTJvub38A#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Young A, Chaudhry HJ, Pei X, Arnhart K, Dugan M, Synder GB";
+    dct:date "2017";
+    dct:identifier <https://doi.org/10.30770/2572-1852-103.2.7>;
+    dct:title "A Census of Actively Licensed Physicians in the United States, 2016";
+    dct:type fabio:ResearchPaper;
+    rdfs:comment "No apparent claim of annual physician suicide rate" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "NAxZ5OeDE48pL5fJPmynXOVCD7d57bZNVRZLX+NuNv0eA7GXza8Oq/n8McnMC0vim8jmyoAibl7+gedChbL+KB2T5XxgajqHgQmbM/LZmH3NF/7cqhRiUFhuPQE4wlOw35nhEOuhFK6Vh+NKtkTH9fTPGzBMMkYofefgdaJZ2Jg=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:25:06.982+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAVfXk2uPdKBEgfDEKqqBUY-tcQ5nlJi4gvTJNKBwa6hQ> .
+@prefix sub: <http://purl.org/np/RAVfXk2uPdKBEgfDEKqqBUY-tcQ5nlJi4gvTJNKBwa6hQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Glen Evans, Norman L. Farberow, Ph.D., Kennedy Associates";
+    dct:date "1988";
+    dct:identifier <urn:isbn:0816045259>;
+    dct:title "Encyclopedia of Suicide";
+    dct:type fabio:Book;
+    rdfs:comment "Unverified if claim of annual physician suicide rate present" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "ao99Yx6OC7UXS5zp7W6cKtO9l5+xIpegkWWMm7D5BFimNYTLKgezXRG2dlR/3lE7fzv/jJiHE513nfWFwLHmQay+ajFz0uthQWavqf+GtF9rWiH1sYCxcM6MccgZ4zSUpi8CPxToO88Jt9LMT6kgwXOkQ+N01E7vjfVf0Yo8aMQ=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:33:43.626+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAgdJQTutzID92DI29H_trr-tx8OB1J5TD6cM4Fi-11mI> .
+@prefix sub: <http://purl.org/np/RAgdJQTutzID92DI29H_trr-tx8OB1J5TD6cM4Fi-11mI#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Kuehn, Bridget M.";
+    dct:date "2019";
+    dct:identifier <https://doi.org/10.1161/CIRCULATIONAHA.118.037530>;
+    dct:title "To Prevent Suicides and Promote Physician Well-Being, Institutions Turn to Early Intervention";
+    dct:type fabio:PositionPaper;
+    sio:SIO_000277 <http://purl.org/np/RA9nG0iq5jiyVIQz30GbxLWbxnFEUFqLe5_IA5yJEW7Qo>;
+    prov:quotedText "Physicians and residents are at elevated risk of suicide compared with their peers in the general population, and about 300 to 400 die in the United States each year, according to a study published in JAMA." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "b2DX//J4kyGOjlHChjXP+SrXmfxGDbgZmjvceuU8iI1MD++1Ox8YuRAUdyyD/hERa05NUgGynznRtFoGMZAnXPapIaOdU5F8hRAhpS7//L+VQ37m9VWlrY8Y1mPOCTNl8c7RodF2L8A8deeEMzmLOIDc8LsSRVlLZWWFQVg/2oI=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:55:29.803+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RA1q1I6-EtcuWMVsCZECCASXoiWt61VMOgDJ9JSCP4UGU> .
+@prefix sub: <http://purl.org/np/RA1q1I6-EtcuWMVsCZECCASXoiWt61VMOgDJ9JSCP4UGU#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "American Foundation for Suicide Prevention";
+    dct:date "2018";
+    dct:identifier <https://afsp.org/our-work/education/healthcare-professional-burnout-depression-suicide-prevention/>;
+    dct:title "Facts about physician depression and suicide";
+    dct:type fabio:WebSite;
+    pav:sourceAccessedOn "10-12-2018";
+    rdfs:comment "No apparent claim of annual physician suicide rate" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "J4O8ZuTPef91nZXfyQFgft0eMjIb3snwt0sV+PlDKXGxa9Ac3fzWYJEi08s44c9GpRdocCL7lqufHt4cuW30Xy0dBzQQtJKclFpnWjz1prjz9bKs/VdMlXxdrwBJjcwvPADPZA4wwkN8nBfEs5W3jPT6B75nQoPUKu/OoDqDuUI=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:31:53.264+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAkf3rzncTOot7nOHAlhvYjW-UXZYo4GpwcUVIDOV_X34> .
+@prefix sub: <http://purl.org/np/RAkf3rzncTOot7nOHAlhvYjW-UXZYo4GpwcUVIDOV_X34#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "American Foundation for Suicide Prevention";
+    dct:date "2014";
+    dct:identifier <http://www.afsp.org/content/search?SearchText=physicians+and+medical+students&SearchButton=Search>;
+    dct:title "No title provided";
+    dct:type fabio:WebSite;
+    pav:sourceAccessedOn "04-05-2014";
+    rdfs:comment "Unverified if claim of annual physician suicide rate present" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "kcmNojQ1+rRPHypODMGQOyisg8kd+Hh6MsZgvn0NSY95OYDMrMgL2j2/zXbIARqpJjUPCEyD1GoaowndBAI/1JrSnFmNCALKRz50o3gKrpw6sKPSHSpn52qoSeuYDq5HcipSUl86dS5LYbpjd7w5eOGQH/PEzPpCHbZ0mZGYa8g=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:43:34.773+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RA1o-WSjHkm56DZuzziAYoUmuF-muVtPdlQKvsCT4yaPA> .
+@prefix sub: <http://purl.org/np/RA1o-WSjHkm56DZuzziAYoUmuF-muVtPdlQKvsCT4yaPA#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Reynolds, C. F., 3rd";
+    dct:date "2015";
+    dct:identifier <http://doi.org/10.1001/jamapsychiatry.2015.2112>;
+    dct:title "Preventing Suicidal Ideation in Medical Interns";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "depression can be a precursor to suicide, with 1 doctor dying by suicide approximately every day." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "GM0A8jKvU0dNMd9XWeUUXZI1yYM6gKG4vOgl2fTh2repiLduflZOGVhbbJMIbVIV//4U5gudgFdBLsoAV++3Yy+4ESzqcbk0KGX2vf82oTPPdDOmSFOuCfPiNb+VrOT+7FxnPNcf5cNMSucXRxF9Be79VknDKAtPgVeAcWR32lA=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:14:59.247+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RA4m_1AFmib-aDjLwgKLfIuxKEqa0pHh5H4cyc8_czWx0> .
+@prefix sub: <http://purl.org/np/RA4m_1AFmib-aDjLwgKLfIuxKEqa0pHh5H4cyc8_czWx0#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Pompili, M.; Mancinelli, I.; Girardi, P.; Tatarelli, R.";
+    dct:date "2004";
+    dct:identifier <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1395804/>;
+    dct:title "Letter to the editor on female physicians committing suicide";
+    dct:type fabio:PositionPaper;
+    sio:SIO_000277 <http://purl.org/np/RAVfXk2uPdKBEgfDEKqqBUY-tcQ5nlJi4gvTJNKBwa6hQ>;
+    prov:quotedText "in United States each year, between 100 and 150 physicians commit suicide, which is more than the size of an entire graduating class from an average-size medical school." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "XMzzC7+r0611jZmS3vF+MufjeqSw4CjIVTUBDBFL1qNfV6szwdVxu78LWapgfuWhRpOsFmgy/HpMWtE5Cb3VI3CwKBjYN5akYzHsW3sXS05v55wErZ9LcuKfEaiYjRbF5hPDvx70fB0rMiVaKK3+8v1trjYDzfgag8IAxmFCAw0=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:56:27.215+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RA58xJdnse4hTrX8IdNqgPYLTW_kHdIeB14qiTtmwFvCo> .
+@prefix sub: <http://purl.org/np/RA58xJdnse4hTrX8IdNqgPYLTW_kHdIeB14qiTtmwFvCo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Schernhammer, Eva S; Colditz, Graham A";
+    dct:date "2004";
+    dct:identifier <https://doi.org/10.1176/appi.ajp.161.12.2295>;
+    dct:title "Suicide rates among physicians: a quantitative and gender assessment (meta-analysis).";
+    dct:type fabio:ReviewPaper;
+    rdfs:comment "No apparent claim of annual physician suicide rate" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "GUEHNLmGyenMNXrSoYra6905StgJ9se65XxoUvC2E9Jerh3HeZOwfFF+XrRqz8UZRggtML3fLF/ViVKtUdfpvFxC4sVbeMfbTckF2jkH33aD7gV/5GCAQ5wnXH3tUfxdqTRP+xIf6EWvAi+T9KG94i+jEfX3tufdfZ9O8kbpxZE=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:21:17.528+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAKkRx76v2pge1qSti0NPFOEHNhVYkaLsRKKPHS6pd-oE> .
+@prefix sub: <http://purl.org/np/RAKkRx76v2pge1qSti0NPFOEHNhVYkaLsRKKPHS6pd-oE#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Yaghmour, N. A.; Brigham, T. P.; Richter, T.; Miller, R. S.; Philibert, I.; Baldwin, D. C., Jr.; Nasca, T. J.";
+    dct:date "2017";
+    dct:identifier <https://doi.org/10.1097/ACM.0000000000001736>;
+    dct:title "Causes of Death of Residents in ACGME-Accredited Programs 2000 Through 2014: Implications for the Learning Environment";
+    dct:type fabio:ResearchPaper;
+    sio:SIO_000277 <http://purl.org/np/RA9nG0iq5jiyVIQz30GbxLWbxnFEUFqLe5_IA5yJEW7Qo>;
+    prov:quotedText "A study by Center et al found that an estimated 300 to 400 practicing physicians died by suicide each year" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "UwQr8laSjvNykxwHS8R7vd2zYCv6JZSLY09lgcSbT2xSbPQNzYmNECkLTWI7Aoq8b4MAm3+4R6hjndim1vyqpxEwi8Md09o6REwLy9PKua2+dQHqrR3lAW32m9UoTOyaea+W4lLNVKfxL3kJ7FAVkKdsaL1tU7VSP/K68H2Ac1Q=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:52:40.962+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RASNtMTdARdcYtB3TTuPClrmedeDJOMnsAesS7UokiChY> .
+@prefix sub: <http://purl.org/np/RASNtMTdARdcYtB3TTuPClrmedeDJOMnsAesS7UokiChY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Rakatansky, H.";
+    dct:date "2016";
+    dct:identifier <https://pubmed.ncbi.nlm.nih.gov/27801912>;
+    dct:title "Physicians at high risk for suicide in US; incidence higher in women doctors Physician Health Programs (PHP) offer confidential treatment";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "We know that 300-400 physicians commit suicide every year." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "UkU+H32ZCv+o55Y05l8UYj/kg7VnbD9uAX/yjwzRIvqm5PIQx/6eLNRjTsFWrR6qGkxn8rRPmzV9OCLIH6IzzUkvKxg0kB/oWlhq5OPa+uAmUQh9+ddqklLxCyXgLJuokJWy0tENWC2wgwpd0ytr08NaRECttrdd6NA+3icHtp4=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:24:06.220+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAMjlvyD7CYRArrnOYNpFANje9LtXNwzMpmAzaWihj4bM> .
+@prefix sub: <http://purl.org/np/RAMjlvyD7CYRArrnOYNpFANje9LtXNwzMpmAzaWihj4bM#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Withy, K.; Mapelli, P.; Perez, J.; Finberg, A.; Green, J.";
+    dct:date "2017";
+    dct:identifier <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5375006/>;
+    dct:title "Hawaii Physician Workforce Assessment 2016: Improvement in Physician Numbers but Physician Suicides of Concern";
+    dct:type fabio:ResearchPaper;
+    sio:SIO_000277 <http://purl.org/np/RA9dUlTqvAT0LumWwa6UX_Cztck2J6w55L91HdvMjjppc>,
+      <http://purl.org/np/RAcyIgMk85Be-1wrAAR4dvfLDP0WMv4Mz_PnDfH-33gsU>;
+    prov:quotedText "US statistics indicate that between 300 and 400 physicians commit suicide every year." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0003-4727-9435 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTQs+mANCSHWhIW/YPio468UdGNHsPvADpjfaW8um/v2L4AoDIANginfoU65VNbPT5D0ADt1y0uFNne3VEMr9Y+I2HFaz6IKj+LdYMJk6VUf5WJoImRHIX6BZQwcUc22CbTBFYxvqvp3UmmHrCrhLIZjDSyutExK3tOTRoMDjGowIDAQAB";
+    npx:hasSignature "hJQRJUn5////RhhckDZhmlitDt+oia1HI4GaLSruHFAZ1BD0hV7MlM0gpegsAVJAqQ67qjqm2MfFNY1/mA4u+ZqYFCju9+N8joe7walz0WtRx3EJfVaTfEFQWI3vVu0cbGWRoFuoBffv7ElqW8nAAHOEZkZ8mzvnk5hRJqD6DM0=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:10:24.314Z"^^xsd:dateTime;
+    dct:creator orcid:0000-0003-4727-9435;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAk6-MXW5fdn28jXWCS84e0e8TRmkGyGwq3CKGqyvs6hM> .
+@prefix sub: <http://purl.org/np/RAk6-MXW5fdn28jXWCS84e0e8TRmkGyGwq3CKGqyvs6hM#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Iannelli, Richard J.; Finlayson, A. J. Reid; Brown, Kimberly P.; Neufeld, Ron; Gray, Roland; Dietrich, Mary S.; Martin, Peter R.";
+    dct:date "2014";
+    dct:identifier <http://doi.org/10.1016/j.genhosppsych.2014.06.008>;
+    dct:title "Suicidal behavior among physicians referred for fitness-for-duty evaluation";
+    dct:type fabio:ResearchPaper;
+    rdfs:comment "No apparent claim of annual physician suicide rate" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "dqqzorTEJ2c7570wCfGXO9DzDm/NchF1YJZCHcD2LljrTAye2qr0ikRN7YrFYwygM1lTi/hDBkSMFvL3qOL+Js0qjaTO91I3kQg/0rLzRc7Flgk2P0W/G2BSXdEMdwJbZ/XGexE1+wE9VEwDSbw8DIgiRzwAU1R0JrJqUBeqbpQ=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:24:02.868+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RABkQsWsWGNXay34cUMFD3K86nQNkCBuCPTfdxYxtWdUg> .
+@prefix sub: <http://purl.org/np/RABkQsWsWGNXay34cUMFD3K86nQNkCBuCPTfdxYxtWdUg#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Rubin, R.";
+    dct:date "2014";
+    dct:identifier <http://doi.org/10.1001/jama.2014.13505>;
+    dct:title "Recent suicides highlight need to address depression in medical students and residents";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "Each year in the United States, 300 to 400 physicians take their own lives - roughly equal to the number of students in 3 medical school graduating classes." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "aKX41PrjLcRvWaZUYaQ3u8w+n6WNXQZAsXYa3dc1Xgcwmb/PvB82yrU77kfbXcBJdavP797V+7zvUR4lRLcfBdhMJmtC6ynxBVVvLwfPpbamDMX5Ne21KIhXNw67WMZLmRoNzN39FXd/xke/dBcGLs1QYuyvb9fH0DTWjs+wYnU=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:11:08.713+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RATaBeXjiybRjZajYnb7KOqKtCfTpWtSSq6FcUDaDTTDw> .
+@prefix sub: <http://purl.org/np/RATaBeXjiybRjZajYnb7KOqKtCfTpWtSSq6FcUDaDTTDw#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Poorman, Elizabeth";
+    dct:date "2019";
+    dct:identifier <https://doi.org/10.1177/2516043519866993>;
+    dct:title "Depression and suicide: Occupational hazards of practicing medicine";
+    dct:type fabio:PositionPaper;
+    sio:SIO_000277 <http://purl.org/np/RAQ8zOgtjLzzyjsA41EF4Zj_4TbUStmHYJeo7APx6WXtE>;
+    prov:quotedText "Three hundred to 400 physicians are estimated to kill themselves every year, but as many may choose methods like overdoses and accidents with unclear intent, the true number will never be known." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "EgtsaYSHoRP9MKQ0j5sD5ELbHdVb4ELVhfhUyXFDt6ZGjZuXX+oD8gFuEADvdCjl1BdkTrcnBna45LvNvChzjk6Ye0yggAHQnkq7qAYndIqnRZcKShq7WwOSx9XNbbxq1TGuQ1gUlLKvBkT6zT1vMc5LCnGMZCp+iEnPweJXQ2Y=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:59:03.602+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAYpwK2628KMvA6Kzrk3KG09IW8KkwFh_HcHDDijc2En0> .
+@prefix sub: <http://purl.org/np/RAYpwK2628KMvA6Kzrk3KG09IW8KkwFh_HcHDDijc2En0#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "American Foundation for Suicide Prevention";
+    dct:date "2015";
+    dct:identifier <http://www.afsp.org/preventing-suicide/our-education-and-prevention-programs/programs-for-professionals/physician-and-medical-student-depression-and-suicide/facts-about-physician-depression-and-suicide>;
+    dct:title "Facts about physician depression and suicide";
+    dct:type fabio:WebSite;
+    pav:sourceAccessedOn "01-02-2015";
+    rdfs:comment "Unverified if claim of annual physician suicide rate present" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "VB8guCdrRoyTzlFgPVQ1PKEwlY7wNqygnj8HBMh/mkjblVWcCb0Ux6xsi8L0JAsn5soQ1hRMG01o5P4JQwIJH8TIMRMgqOIHf0zhKMAAapbu6oWiPaSLltdNKniHvMpIEhuuNc0dOb7gAZMRhU6DoAYMW76fxsKZGaYZzSyFEDE=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:44:55.278+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RArnuHhoNY934aeD2N_wQRGDDirXkbdMBSk5eOMS--qPw> .
+@prefix sub: <http://purl.org/np/RArnuHhoNY934aeD2N_wQRGDDirXkbdMBSk5eOMS--qPw#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "McGuire, T.; Moutier, C.; Downs, N.; Zisook, S.";
+    dct:date "2013";
+    dct:identifier <http://doi.org/10.1016/j.genhosppsych.2013.02.002>;
+    dct:title "In response to \"Details on suicide among US physicians: data from the National Violent Death Reporting System\"";
+    dct:type fabio:PositionPaper;
+    sio:SIO_000277 <http://purl.org/np/RAcTAtn3uLHzpl9A6lWQkUk6jwH53-cBlDXzL70f53eus>,
+      <http://purl.org/np/RAt3jp0MnXmUvo6UnlOupHFj4ZVj40UQITg-Qy5WD9_GQ>;
+    prov:quotedText "finally as an acknowledgement of the significant rate of 300 to 400 annual physician suicides in the United States" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "I3xNAfKMtDofyvHmfbw/SZhGNhBoBgmlRySf34uVutbnINtvjmJr7IYNed0VERhHmPeFAsohAysf3e0wHgcKkO+6aNkMuJaXTjiagUvTdJr4l8UWB/hR2536PTI4IlxiKiBiP8jHCT6cYFS3NWTKydDQ71/960qwhvRbhGfuByA=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:07:02.805+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAcyIgMk85Be-1wrAAR4dvfLDP0WMv4Mz_PnDfH-33gsU> .
+@prefix sub: <http://purl.org/np/RAcyIgMk85Be-1wrAAR4dvfLDP0WMv4Mz_PnDfH-33gsU#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Andrew, Louise B; Brenner, Barry E";
+    dct:date "2015";
+    dct:identifier <http://emedicine.medscape.com/article/806779-overview>;
+    dct:title "Physician Suicide";
+    dct:type fabio:WebSite;
+    pav:sourceAccessedOn "04-05-2016";
+    prov:quotedText "It has been reliably estimated that on average the United States loses as many as 400 physicians to suicide each year (the equivalent of at least one entire medical school)." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "K8xcnItAgu3vbcAuuvBB0/tmGTrJS4kbMJq6k1jMKD2uFFUH8oZCNmqbuimobBispkROkFJfpdTw+TJxRMUutK20lribk80XM6J/nB4k+RQW36wvcdjsiC5N2Ii5HzK/zVQ5mXnp1oMAjF3R2h14lQShWfA4mH4KhyaWKeQFFYI=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:19:30.504+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAt-X373jf8txtzNGJben9qkOVoS4GCG66sUpTi35rnJY> .
+@prefix sub: <http://purl.org/np/RAt-X373jf8txtzNGJben9qkOVoS4GCG66sUpTi35rnJY#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Haskins, J.; Carson, J. G.; Chang, C. H.; Kirshnit, C.; Link, D. P.; Navarra, L.; Scher, L. M.; Sciolla, A. F.; Uppington, J.; Yellowlees, P.";
+    dct:date "2016";
+    dct:identifier <http://doi.org/10.4103/1357-6283.170129>;
+    dct:title "The Suicide Prevention, Depression Awareness, and Clinical Engagement Program for Faculty and Residents at the University of California, Davis Health System";
+    dct:type fabio:ResearchPaper;
+    sio:SIO_000277 <http://purl.org/np/RA58xJdnse4hTrX8IdNqgPYLTW_kHdIeB14qiTtmwFvCo>,
+      <http://purl.org/np/RAkf3rzncTOot7nOHAlhvYjW-UXZYo4GpwcUVIDOV_X34>;
+    prov:quotedText "This equates to about 300-400 physicians dying by suicide every year." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "cMSxjSi6uq+Yo7lPr6MKPy7xEUo2IxAH90eUpSR0lLCagGFhrlmLFVPot7OgXuxLoq8W7bamyR7XLMx2olHszpFrNhVYLlPDnaeBndYlZ+nAltdpTyHJSm0hPGD0HtHbYq44T//jmxSQf0Yo3wcB/a19+MMMjVdRCdbGSdq9bDM=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:23:32.548+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAcTAtn3uLHzpl9A6lWQkUk6jwH53-cBlDXzL70f53eus> .
+@prefix sub: <http://purl.org/np/RAcTAtn3uLHzpl9A6lWQkUk6jwH53-cBlDXzL70f53eus#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "American Foundation for Suicide Prevention";
+    dct:date "2012";
+    dct:identifier <http://www.afsp.org/index.cfm?fuseaction=home.viewPage>;
+    dct:title "Struggling in Silence Physician Depression and Suicide";
+    dct:type fabio:WebSite;
+    rdfs:comment "Unverified if claim of annual physician suicide rate present" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "oXTFeqwChE9drjiWiiYocArzK5kYacaoD5+DWZysWMGVWdtThg/vgXkfO+D5ZFTgaGdu56MLKZtOBUgb9vBg8rrqeG6lKjAhtxgYtB1wOnkh8mXLmssroTm4/VwU2iTD6l/rBzOT2b8HEzCjevxjKJA3nv8OKlbgmZzRi3hxLjM=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:06:00.871+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RA9nG0iq5jiyVIQz30GbxLWbxnFEUFqLe5_IA5yJEW7Qo> .
+@prefix sub: <http://purl.org/np/RA9nG0iq5jiyVIQz30GbxLWbxnFEUFqLe5_IA5yJEW7Qo#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Center, Claudia et al";
+    dct:date "2003";
+    dct:identifier <https://doi.org/10.1001/jama.289.23.3161>;
+    dct:title "Confronting depression and suicide in physicians";
+    dct:type fabio:ReviewPaper;
+    rdfs:comment "No apparent claim of annual physician suicide rate" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "jFBYYjF8bW7P7D8OddlbqFr/u5Ryo5BS0hOToKKqzRUzr+PFz6QaHQFEWBueSdnxssjRxiWvLPgFyM+c3LYYnfUYsqTEcPx9XeIH4poTaaT/nnx212+FIjnkWV43/x0tFG5pWO/iFCQvTg6mRalklXCH5yEGwsaMGw+ZaaR5ASI=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:19:34.804+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAP8eTaGW5nZzpabQ7yM7G9l3ynl_nNLfKXn3uGlzl80I> .
+@prefix sub: <http://purl.org/np/RAP8eTaGW5nZzpabQ7yM7G9l3ynl_nNLfKXn3uGlzl80I#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Downs, N.; Feng, W.; Kirby, B.; McGuire, T.; Moutier, C.; Norcross, W.; Norman, M.; Young, I.; Zisook, S.";
+    dct:date "2014";
+    dct:identifier <http://doi.org/10.1007/s40596-014-0115-x>;
+    dct:title "Listening to depression and suicide risk in medical students: the Healer Education Assessment and Referral (HEAR) Program";
+    dct:type fabio:ResearchPaper;
+    sio:SIO_000277 <http://purl.org/np/RAvld4We77jP84OAWsMqpEVGc1lDrJ0qV7VJCrJKINguk>;
+    prov:quotedText "In the USA, over 300 to 400 physicians and medical students die by suicide each year." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "Nw2p5wmUnNKN4BuThr9+PNzwf3PmoxcVmKDtJVNUq0rJQwBjwCjpyYEiKlexjxdaWdxij7SGAc/ogrrol/xEge0UTj6wGhyZJ8Ynt4BqoS2L2ICCO//5v983xbdmym4BM56W7IjZLd1poPvAmD58oQM7ChOl2DzdOSlPjirV6k8=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:07:58.468+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAE-AEj4KkkO8-cNUVs_WJbLhUuuYEWhyvQq3vseC2gbU> .
+@prefix sub: <http://purl.org/np/RAE-AEj4KkkO8-cNUVs_WJbLhUuuYEWhyvQq3vseC2gbU#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Kishore, S., D. E. Dandurand, A. Mathew, and D. Rothenberger";
+    dct:date "2016";
+    dct:identifier <https://doi.org/10.31478/201606a>;
+    dct:title "Breaking the Culture of Silence on Physician Suicide";
+    dct:type fabio:PositionPaper;
+    sio:SIO_000277 <http://purl.org/np/RAnc71A2WKBP43w_yOGdikUGoMZWsHOEzKK56se6dw4Eg>;
+    prov:quotedText "Every year an estimated 400 U.S. physicians take their lives." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "EWyH71n6WECOb3LTcf5QKGDUgE1F03YoQcFYSgt2907jHvfsMbqUmCPHCuKEiZWClJ9YHljmS+PtdeYy53fnaZGvjA2h0vaLAuOeblEOEkYIrMBKnl5LAbZ05gjmpX46Li3dNJ02IV22gORD4KhAAi3KNG9miYsDez5MRri0bXU=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:46:14.813+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAvpasBCfFWMWjnV47eryXvYOBrdyymtE1p9G6lOfYpPU> .
+@prefix sub: <http://purl.org/np/RAvpasBCfFWMWjnV47eryXvYOBrdyymtE1p9G6lOfYpPU#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "American Foundation for Suicide Prevention";
+    dct:date "2011";
+    dct:identifier <http://www.afsp.org/index.cfm?fuseaction=home.viewPage&page_ID=9859BF59-CF1C-2465-128DAE02D3C9B309>;
+    dct:title "Struggling in Silence Physician Depression and Suicide";
+    dct:type fabio:WebSite;
+    pav:sourceAccessedOn "04-11-2011";
+    rdfs:comment "Unverified if claim of annual physician suicide rate present" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "KI9xqR3Bk70Go7IOyuxV3Lz7OdelryEeqlzCYwR+PcKW0h56GJpUwFx1qVBhvvoUoD1KYBGoSoX76IviYD8He+F1LFYIoMq/KUllayWWbYPkGkDqJkSD5yrUnaUOYiuCMhhyKjN7yA/u2qwGO/3q2A/LcPX39X7bg0JRovaXea8=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:40:02.035+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAnc71A2WKBP43w_yOGdikUGoMZWsHOEzKK56se6dw4Eg> .
+@prefix sub: <http://purl.org/np/RAnc71A2WKBP43w_yOGdikUGoMZWsHOEzKK56se6dw4Eg#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix pav: <http://purl.org/pav/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Andrew, Louise B; Brenner, Barry E";
+    dct:date "2015";
+    dct:identifier <http://emedicine.medscape.com/article/806779>;
+    dct:title "Physician Suicide";
+    dct:type fabio:WebSite;
+    pav:sourceAccessedOn "04-05-2016";
+    rdfs:comment "Unverified if claim of annual physician suicide rate present" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "MTAs7eJbCgwoWpB1SFrbKnynwozF9NDnqR0Zt7G1ZrgxMqFg9JZgeu6nSh5gjCGfekJLuCoJFX2wzBM6AmMSynqTMFN+AhQbDZCrCBVA18cWvEyCPqv6An/KLClCxSz6kBJBmaBj7DL9K4iyJXQqzcFkS6ETgn1DmYgMqcjiu7o=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:53:52.499+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RACOKd9QOjLI4VMY4N7f9iMYgFrZk7vAMJumXRol6wmrQ> .
+@prefix sub: <http://purl.org/np/RACOKd9QOjLI4VMY4N7f9iMYgFrZk7vAMJumXRol6wmrQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Isaacs, Kayla";
+    dct:date "2020";
+    dct:identifier <https://doi.org/10.1001/jamainternmed.2019.6520>;
+    dct:title "The Mental Health Hazards of Reading About Physician Suicide";
+    dct:type fabio:PositionPaper;
+    sio:SIO_000277 <http://purl.org/np/RA7HMrJxgphlwIVFoQOjKGGSAYrFIxZyoau9lTJvub38A>,
+      <http://purl.org/np/RAP8AHpEim15EIxOfZnuG9xpSmERPH7eHfvj52G0197lY>;
+    prov:quotedText "While depression affects some 119 000 to 284 000 physicians in the United State each year, 300 to 400 complete suicide annually." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "mvR1AQm8aRZFxHBA77YDtXG8oMV84oncHyxKlH2EdPctpW8RzeUZQIKfiNEGVCtio8WMzufcOC2fbVBL4kEdS1hhP1p02r41kBw24LWaCXn4dAxVQwPpJRQ+W81p4jDjvSh0D8SFzWrAe9fBTVeEtFdjgJD0j3lLHR2I+/Dq2js=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T01:00:11.104+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAAhmGwEay7buLOKE4OQ1erwlBK9TYuAcJq1eW6yfBOO8> .
+@prefix sub: <http://purl.org/np/RAAhmGwEay7buLOKE4OQ1erwlBK9TYuAcJq1eW6yfBOO8#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Kalmoe, Molly C, Chapman, Matthew B, Gold, Jessica A, Giedinghagen, Andrea M";
+    dct:date "2019";
+    dct:identifier <https://pubmed.ncbi.nlm.nih.gov/31527944>;
+    dct:title "Physician Suicide: A Call to Action.";
+    dct:type fabio:PositionPaper;
+    sio:SIO_000277 <http://purl.org/np/RA1q1I6-EtcuWMVsCZECCASXoiWt61VMOgDJ9JSCP4UGU>,
+      <http://purl.org/np/RAEbrpJ2n7g6TXCsP9uxEFb090obEDjDjWgyKH_HteFO0>;
+    prov:quotedText "An estimated 300 physicians die by suicide per year, and rates may be rising." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "ZYVsheUWRgcwh5jCAwkrBBg3nqqSMXBpPs7On2jeyGkezOMwBiJzju23nQGA5uTN654XDiNNoxG5BmjBoHmNr6ZyH9il0KONKcjCDTQdvO7hWFU9BjDjLibKbzOJusF8rC6kHc3JbpROgdhg8sAcfTw2vigxXl8kcru+MH2cmnk=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:58:17.200+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAFVQa7-vWMpmyZGzM6IOGhjHjNhv6mlNQE5Hpf6n-4Q8> .
+@prefix sub: <http://purl.org/np/RAFVQa7-vWMpmyZGzM6IOGhjHjNhv6mlNQE5Hpf6n-4Q8#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Nissen, Nicholas; Feller, Edward";
+    dct:date "2019";
+    dct:identifier <https://pubmed.ncbi.nlm.nih.gov/31167520>;
+    dct:title "Suicide and Physicians - Why don't doctors in distress seek help?";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "As many as 400 doctors die from suicide yearly." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "Q0q9P6+KXUEDjN/7CdXGKaeAiPjfy9eeIjalmChyxtNpPjw+dQ9mQ442aYa5WiZnIHbYwIr41/qrMko4ib0QrUFeaUEMynnuLzToibnCNm0RyVLMfJjwwpOJ8GOsYD1rGsS9IHvxFa4hSxbU4VfWv4EmiAyg1/Z5Km7/hHpxTOk=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:56:09.705+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAt3jp0MnXmUvo6UnlOupHFj4ZVj40UQITg-Qy5WD9_GQ> .
+@prefix sub: <http://purl.org/np/RAt3jp0MnXmUvo6UnlOupHFj4ZVj40UQITg-Qy5WD9_GQ#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Moutier, C.; Norcross, W.; Jong, P.; Norman, M.; Kirby, B.; McGuire, T.; Zisook, S.";
+    dct:date "2012";
+    dct:identifier <https://doi.org/10.1097/ACM.0b013e31824451ad>;
+    dct:title "The suicide prevention and depression awareness program at the University of California, San Diego School of Medicine";
+    dct:type fabio:ResearchPaper;
+    sio:SIO_000277 <http://purl.org/np/RAvpasBCfFWMWjnV47eryXvYOBrdyymtE1p9G6lOfYpPU>;
+    prov:quotedText "approximately 300 to 400 medical students and physicians take their own lives each year in the United States" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "GyC+ZpB+J6movmMxqVRISLYK64Yp+G2VyxW/mLvziVR20HQNSRkY7incvlcft4jE68YKxY2fyGWlwTVG4McUt+Dp4Gzd2uZyTgRMqV+6L8nrE3q0eRJBWtzMJqBw5uTFxb4wYupEHwCt6RlcWXPe6YyOf624Z/dm9TjTN/3npPk=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:59:05.334+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAFd7nBvLeyisKDKhDEymlIVg7GgjubN4O8wx5gbtZ7oE> .
+@prefix sub: <http://purl.org/np/RAFd7nBvLeyisKDKhDEymlIVg7GgjubN4O8wx5gbtZ7oE#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Gerkin, D. G.";
+    dct:date "2013";
+    dct:identifier <https://pubmed.ncbi.nlm.nih.gov/23505799/>;
+    dct:title "Struggling in silence: physician suicide";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "that number is over 400 per year and is equal to one to two medical school classes" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "X9qqqNxxN0nSPGSLHYxk6TUFmEH/y+RwYTf+CWSdLNKUnKQexZHIWakOpErLGevsgf1OzESGX7jVAUAdzWrVvOfpSdYT5/xUCXkLVj0plFmPOVn1f6OVm/4jx6iNN8ckIHx/RPnNiep4B+nVjdqOY1qvmNL8U+UMuUkQf4urpn4=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:59:45.435+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAcMpiliHJP4htUmEdI9zCTs22smZfjPNNTnReBtD9Hlw> .
+@prefix sub: <http://purl.org/np/RAcMpiliHJP4htUmEdI9zCTs22smZfjPNNTnReBtD9Hlw#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Rockwell, D. A.";
+    dct:date "1975";
+    dct:identifier <https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1129760/>;
+    dct:title "Suicide in physicians";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "From 150 to 200 physicians annually are lost to this preventable problem." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "hee2ytkwnZpBoKk2W+gQO6og6+tEHtKCn+frOKouDuUraXKTzGopMeSLzmHF4ubdIty0vhkxcrEZuqO5CnotSv+wc4eGlipBKNEU6P94Nu4OMouzyX9TMiUFB2NBJg4QwG9/xVM5F27azywjMWwPZzIKYxxcJV+H+vsW108oRCU=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:55:33.280+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAbOlaf0fKUSlhYH3IT9_HBGhGRuYcMKWdn0EcYyftyrs> .
+@prefix sub: <http://purl.org/np/RAbOlaf0fKUSlhYH3IT9_HBGhGRuYcMKWdn0EcYyftyrs#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Genovese, J. M.; Berek, J. S.";
+    dct:date "2016";
+    dct:identifier <http://doi.org/10.1200/JCO.2015.65.1778>;
+    dct:title "Can Arts and Communication Programs Improve Physician Wellness and Mitigate Physician Suicide?";
+    dct:type fabio:PositionPaper;
+    sio:SIO_000277 <http://purl.org/np/RAa0---1HK9tDOZklpPWakJ50uHAqwPw9bKkmC2UdAf8A>,
+      <http://purl.org/np/RAk6-MXW5fdn28jXWCS84e0e8TRmkGyGwq3CKGqyvs6hM>;
+    prov:quotedText "The suicide rate for physicians is higher than that of any other profession - in the past year, more than 400 physicians have committed suicide." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "dmZHjVmrNMWxjRFusQKDHlZ/oSJNqZGpJOITtCkwkdGF/wKUfLEDW+nhptdZ4m4vxlfXyJeCy50Mt72SL8zpoA6aQPD7qJiCLpqCMVRRt71oTpITOQUaXo9TnmfDd9mTrmF5LL5o2qCrgCWgHtlyFsUnc4gZlJ7pS3zdgcTU6zw=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:20:30.895+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAP-vr4oeD-JO7d_XrTG2QtPxaOIPVrQasG-GviCBl97A> .
+@prefix sub: <http://purl.org/np/RAP-vr4oeD-JO7d_XrTG2QtPxaOIPVrQasG-GviCBl97A#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Collier, R.";
+    dct:date "2017";
+    dct:identifier <https://doi.org/10.1503/cmaj.1095498>;
+    dct:title "Physician suicide too often \"brushed under the rug\"";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "About 400 die by suicide every year." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "gfWnp8+rDlJzLUnXRJEAMdK2d68bF73ma1Fxzu2H6JmRnEU4FDPjjEUquQEb3cXxa/t5CBMm0OTk6IcZYHK7NCb1z93xJRkwTgQ75q1e+KBxl9WFEFgM9tS79cJvY5K0qddBUGSbN+iOASHwu8r1DUZ4QIlgpi1P/KGiaocuRIY=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:50:44.910+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAO3HmwRoDFMCJ0y-_KgYh1mbFTlYMlNG1GO3d6QyPXLg> .
+@prefix sub: <http://purl.org/np/RAO3HmwRoDFMCJ0y-_KgYh1mbFTlYMlNG1GO3d6QyPXLg#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Middleton, J. L.";
+    dct:date "2008";
+    dct:identifier <https://doi.org/10.1370/afm.840>;
+    dct:title "Today I'm grieving a physician suicide";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "An estimated 250 physicians will commit suicide this year." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "HT2p9JER5CQ8HKL3RO44Z0mN9Bt7peTiyv1IjQYVPngDe5ypNYyD2o3trW410LqJ6892cc2hVEKIgwwlqTtJt0PtHXI3BQvSJyA3uvrtUGVy08PQY+FMKC2sdapfkikNsIIKcwWgy2ll/eik53RTFcrxO0SuQml3dNQEeX0JvJE=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:57:07.939+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RATvnu4oFZfgRdf7YwEhCH5ZmNhrN2b-DLjk9UyZndnhc> .
+@prefix sub: <http://purl.org/np/RATvnu4oFZfgRdf7YwEhCH5ZmNhrN2b-DLjk9UyZndnhc#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Gray, R. W.";
+    dct:date "2013";
+    dct:identifier <https://pubmed.ncbi.nlm.nih.gov/24282833/>;
+    dct:title "Physician suicide rates Show alarming need for education";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "Each year in the U.S. there are somewhere between 300 and 400 physicians who die by suicide." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "FDtWlUBMsMVUzN3I7Wklhfx2A+AfsNTNPENkZS9E6wV5N4c+mrvRmLC4auoxU7Lukwt4+VLjCu5jF1lpN4EVgAIsJWNG5J/SW8cL/T3jjOjMHwzDp+LhqUopo0Bn6D2S4j0obQ48GXPRcb+VDUqOxmeTtw40Yk15Yc3tvVqjq8w=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:02:03.043+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAa0---1HK9tDOZklpPWakJ50uHAqwPw9bKkmC2UdAf8A> .
+@prefix sub: <http://purl.org/np/RAa0---1HK9tDOZklpPWakJ50uHAqwPw9bKkmC2UdAf8A#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Legha, Rupinder K.";
+    dct:date "2012";
+    dct:identifier <https://doi.org/10.1007/s10912-012-9182-8>;
+    dct:title "A History of Physician Suicide in America";
+    dct:type fabio:ReviewPaper;
+    rdfs:comment "No apparent claim of annual physician suicide rate" .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "F5vuHycOcw+ADYVVgo/n8fP5ZdXQRwgev4qf4Xxu0S5m26xgXkVwboSKKz1fa84h29S42UKtCIF0tEWS4l25F1GPkje+yncRlnUkx3Ar9ZlYRyHQkfxsjaUq0EHvCzMwCvbibaCfK+l5NyfiMbsYORTAWrKKtR1C0DliLGuIGiw=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:22:29.500+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAB8B41GzXHUN3VzlWFwQRh_q7WSugLI7jZkNFWAe1Kxs> .
+@prefix sub: <http://purl.org/np/RAB8B41GzXHUN3VzlWFwQRh_q7WSugLI7jZkNFWAe1Kxs#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Sher, L.";
+    dct:date "2011";
+    dct:identifier <http://www.ncbi.nlm.nih.gov/pubmed/21829900>;
+    dct:title "Towards a model of suicidal behavior among physicians";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "About 300-400 physicians, the equivalent of at least one entire medical school class, commit suicide in the U.S. every year." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "XfNfh2uk3wPa7tIe0xwv+pg7xjK/GrUTTRHa3RqeknO98f5TNp/YiXbex/BJl4/KGRsM+ohn0tlIb28IAUedQbrY5rmJ9AI8ztIkhB2bTQIlg2Ijdc++UiaaSK2R+ZjAKOO/yJy4yrUdWEmun8eUdhjL2iL9d1E5zLqMp6eI3dk=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:58:16.374+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RABcjCt6abFWWO24CnUjYXE9OvphOOdjHP-pTgV7dmaKI> .
+@prefix sub: <http://purl.org/np/RABcjCt6abFWWO24CnUjYXE9OvphOOdjHP-pTgV7dmaKI#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Guille, Constance; Zhao, Zhuo; Krystal, John; Nichols, Breck; Brady, Kathleen; Sen, Srijan";
+    dct:date "2015";
+    dct:identifier <http://doi.org/10.1001/jamapsychiatry.2015.1880>;
+    dct:title "Web-based cognitive behavioral therapy intervention for the prevention of suicidal ideation in medical interns: A randomized clinical trial";
+    dct:type fabio:ResearchPaper;
+    sio:SIO_000277 <http://purl.org/np/RAYpwK2628KMvA6Kzrk3KG09IW8KkwFh_HcHDDijc2En0>;
+    prov:quotedText "According to the American Foundation for Suicide Prevention, 300 to 400 physicians die by suicide each year, equating to approximately 1 physician dying by suicide every day." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "gV0nDv9x5wEfWXYF+Jk2XBjY25TuYJdq+j3R2KWxGTHL2rKIhuGQQE7af2zVJhW8/sWnjz43wao3wwWFh7xGRZJLxvAan0mkjP+Vk+QiEXwDJ0cOSorM94EgVkzM/RIUw4eTmYF4+SKr8jSiFbpTxEkI7adfRUifSAOvmDUM7Os=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:13:38.825+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAEbrpJ2n7g6TXCsP9uxEFb090obEDjDjWgyKH_HteFO0> .
+@prefix sub: <http://purl.org/np/RAEbrpJ2n7g6TXCsP9uxEFb090obEDjDjWgyKH_HteFO0#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Rothenberger, David";
+    dct:date "2017";
+    dct:identifier <https://doi.org/10.1097/DCR.0000000000000844>;
+    dct:title "Physician Burnout and Well-Being: A Systematic Review and Framework for Action";
+    dct:type fabio:ReviewPaper;
+    sio:SIO_000277 <http://purl.org/np/RAcyIgMk85Be-1wrAAR4dvfLDP0WMv4Mz_PnDfH-33gsU>;
+    prov:quotedText "Although accurate data are difficult to obtain, a reasonable estimate is that 400 medical students or physicians commit suicide annually in the United States." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "crv2hTH+7LMJmc7Hqe8FY1PutJIruF6ZbpBAYF1eJOfbMbrLKF0B1rSeH3qM1zO68guBc/0pIL9O3Q+tSYX1Lst2boQOTM8TWWPmvJQoECwWjrDYhmqGyzkodfKCkF3XO7u0gBugE2xnIwO5HtyA9RqiSBOfnWiTM6lE2gbKn1Y=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:53:45.435+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RARvRtlCJK2pZZA285npQBSRsXIuW0GMOMl2CpzvIODOM> .
+@prefix sub: <http://purl.org/np/RARvRtlCJK2pZZA285npQBSRsXIuW0GMOMl2CpzvIODOM#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Pruthi, S.; Gupta, V.; Goel, A.";
+    dct:date "2015";
+    dct:identifier <http://doi.org/10.4103/1357-6283.170129>;
+    dct:title "Medical students hanging by a thread";
+    dct:type fabio:PositionPaper;
+    sio:SIO_000277 <http://purl.org/np/RApiM5Rj8Fb0VEbg2w5wI5lyU4ajhnGMJ39tWwRssLi2k>;
+    prov:quotedText "Reports for the United States indicate nearly 400 physician suicides every year, yet statistics for American medical students are not readily available." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "XxgxYViFumt9qjpim8M0ibE0sJFRCFB/GZh6ZZyh52EdcE3PpQv+GWIz2bPfRUbY8NOv+MlTmY30Txyp6Mp7nMmFJJJIu9Ao+0dQ8B6mq6i6cXZHKXNuOjaonUJYORc8xJlctQX4/nFdf1a7KlT+WnQxQR9YAak4/9P2K+Cii2A=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:14:26.305+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RABhqk7zczoyyvYgzc-PokSkWL59f9ssXvr3No000cc-Q> .
+@prefix sub: <http://purl.org/np/RABhqk7zczoyyvYgzc-PokSkWL59f9ssXvr3No000cc-Q#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Gray, R. W.";
+    dct:date "2009";
+    dct:identifier <https://pubmed.ncbi.nlm.nih.gov/19634645/>;
+    dct:title "Physician suicide rates show alarming need for education";
+    dct:type fabio:PositionPaper;
+    prov:quotedText "Each year in the U.S. there are somewhere between 300 and 400 physicians who die by suicide." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "FuxsS7p9lhcHtpj2q2157TqlIbx+YpzqZBGfwPmn2AcJWFKP+yFE02SaRbgfm/0vhXgvr5DWQLWzKHJQ/6vRxl57jysFPWHf50sCq4VdJF6ng2yLnAWRb8tYUbRXYYNZsaTGORv5ydDMoQjrYcBMz7cOCEf3x34skgnpMeJ4vJE=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-29T23:57:50.680+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
+@prefix this: <http://purl.org/np/RAdZiZ3JJWqPV1J5PfLc8NBrE8zTgjARvj0uXxn0Dat-A> .
+@prefix sub: <http://purl.org/np/RAdZiZ3JJWqPV1J5PfLc8NBrE8zTgjARvj0uXxn0Dat-A#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix np: <http://www.nanopub.org/nschema#> .
+@prefix orcid: <https://orcid.org/> .
+@prefix nt: <https://w3id.org/np/o/ntemplate/> .
+@prefix fabio: <http://purl.org/spar/fabio/> .
+@prefix sio: <http://semanticscience.org/resource/> .
+@prefix npx: <http://purl.org/nanopub/x/> .
+
+sub:Head {
+  this: np:hasAssertion sub:assertion;
+    np:hasProvenance sub:provenance;
+    np:hasPublicationInfo sub:pubinfo;
+    a np:Nanopublication .
+}
+
+sub:assertion {
+  sub:local dct:creator "Stehman, Christine R.; Testo, Zachary; Gershaw, Rachel S.; Kellogg, Adam R.";
+    dct:date "2019";
+    dct:identifier <https://doi.org/10.5811/westjem.2019.4.40970>;
+    dct:title "Burnout, Drop Out, Suicide: Physician Loss in Emergency Medicine, Part I";
+    dct:type fabio:ReviewPaper;
+    sio:SIO_000277 <http://purl.org/np/RAE-AEj4KkkO8-cNUVs_WJbLhUuuYEWhyvQq3vseC2gbU>;
+    prov:quotedText "Each year more than 400 physicians take their lives, likely related to increasing depression and burnout." .
+}
+
+sub:provenance {
+  sub:assertion prov:wasAttributedTo orcid:0000-0002-6007-4023 .
+}
+
+sub:pubinfo {
+  sub:sig npx:hasAlgorithm "RSA";
+    npx:hasPublicKey "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCk/t11RFdsK8IUlbD7CznUrl1IYZtmFhTuGCtzFASFh3p0KsIDEAJtmYJ0CRWUlolT9XPht31Rh0iKGsJpr1PP1H/bcnV0ogspLq5JQj7LNoldB28Mz0/TDGN/YUYVvJjomkEEXHFnKR5vPRYb8gTMifFaTWYYv6JIYVPWJJ+4YwIDAQAB";
+    npx:hasSignature "U2OQKZmukO8MgL1CNtWbM04gObMiqLtv+WM6yzsnVQNthI8/Rasc1ZywfJ1jkCQSwDEMzhei7VpBIqXQ5Xml2cxzyH8Z0fgOXyAg/jqy11Uij9z9AzFEId0AqkEh7psxyTwxy2Qy8BbT3S0eAlhmOXJLwh35YUgMQZ7M9cZF4ZA=";
+    npx:hasSignatureTarget this: .
+  
+  this: dct:created "2020-04-30T00:56:52.151+02:00"^^xsd:dateTime;
+    dct:creator orcid:0000-0002-6007-4023;
+    nt:wasCreatedFromTemplate <http://purl.org/np/RAqWlNPJt3Eb4HkmPCpjaiRHGCzKIZag6cBNMkG8nxu6I> .
+}
